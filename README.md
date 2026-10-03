@@ -28,6 +28,7 @@ Agents and services for agents that you can run on your own box: a Linux server,
 - [QwenPaw](https://github.com/agentscope-ai/QwenPaw) - Personal AI assistant you deploy on your own machine.
 - [Agent Zero](https://github.com/agent0ai/agent-zero) - Agent framework with a Dockerized Linux desktop.
 - [5dive](https://github.com/5dive-ai/5dive) - Open-source AI agent team on a server you own. Runs Claude Code, Codex, Pi and more. (we make this)
+- [Tale](https://github.com/tale-project/tale) - Shared project workspace for team tasks, sandboxed agents, and deliverable review.
 
 ## Coding agents
 

@@ -28,6 +28,7 @@
 - [QwenPaw](https://github.com/agentscope-ai/QwenPaw) - 部署在自己机器上的个人 AI 助手。
 - [Agent Zero](https://github.com/agent0ai/agent-zero) - 带有 Docker 化 Linux 桌面的智能体框架。
 - [5dive](https://github.com/5dive-ai/5dive) - 在你自己的服务器上运行的开源 AI 智能体团队，可运行 Claude Code、Codex、Pi 等。（这是我们做的）
+- [Tale](https://github.com/tale-project/tale) - 用于团队任务、沙箱智能体和交付成果审查的共享项目工作空间。
 
 ## 编程智能体
 
