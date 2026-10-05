@@ -31,6 +31,7 @@
 - [Agent Zero](https://github.com/agent0ai/agent-zero) - 带有 Docker 化 Linux 桌面的智能体框架。
 - [5dive](https://github.com/5dive-ai/5dive) - 在你自己的服务器上运行的开源 AI 智能体团队，可运行 Claude Code、Codex、Pi 等。（由项目维护者提交）
 - [Tale](https://github.com/tale-project/tale) - 用于团队任务、沙箱智能体和交付成果审查的共享项目工作空间。（由项目维护者提交）
+- [YYLO](https://github.com/yylo-dev/yylo) - 可将 Claude Code、Codex、Cursor、Gemini 和 Pi 作为子智能体运行的命令行编排器。（由项目维护者提交）
 
 ## 编程智能体
 

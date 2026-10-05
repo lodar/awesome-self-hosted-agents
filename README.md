@@ -31,6 +31,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [Agent Zero](https://github.com/agent0ai/agent-zero) - Agent framework with a Dockerized Linux desktop.
 - [5dive](https://github.com/5dive-ai/5dive) - Open-source AI agent team on a server you own. Runs Claude Code, Codex, Pi and more. (submitted by its maintainer)
 - [Tale](https://github.com/tale-project/tale) - Shared project workspace for team tasks, sandboxed agents, and deliverable review. (submitted by its maintainer)
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator that runs Claude Code, Codex, Cursor, Gemini and Pi as subagents. (submitted by its maintainer)
 
 ## Coding agents
 
