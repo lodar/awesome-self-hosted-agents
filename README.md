@@ -88,6 +88,8 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [Cognee](https://github.com/topoteretes/cognee) - Persistent memory for agents with a self-hosted knowledge graph.
 - [Graphiti](https://github.com/getzep/graphiti) - Framework for building and querying temporal context graphs for AI agents.
 
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with scoped MCP access. (submitted by its maintainer)
+
 ## Observability
 
 - [Langfuse](https://github.com/langfuse/langfuse) - Self-hosted tracing and evaluation for LLM applications. (open core)
