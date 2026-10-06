@@ -9,7 +9,10 @@ readme="${1:-README.md}"
 [[ -r "$readme" ]] || { echo "ERROR unreadable README: $readme" >&2; exit 2; }
 work=$(mktemp -d) || exit 2
 trap 'rm -rf -- "$work"' EXIT
-mapfile -t repos < <(grep -E '^- \[' "$readme" | sed -nE 's@.*\]\((https://github.com/[^/)]+/[^/)]+)\).*@\1@p' | sort -u)
+# A read loop, not mapfile: macOS ships Bash 3.2, where mapfile is missing and the
+# check used to pass without reading a single repository.
+repos=()
+while IFS= read -r repo; do repos+=("$repo"); done < <(grep -E '^- \[' "$readme" | sed -nE 's@.*\]\((https://github.com/[^/)]+/[^/)]+)\).*@\1@p' | sort -u)
 [[ ${#repos[@]} -gt 0 ]] || { echo 'ERROR no repository entries'; exit 2; }
 now=$(date -u +%s)
 check_repo() {
@@ -18,7 +21,8 @@ check_repo() {
     printf '%s\tUNKNOWN\tFLAG feed-fetch\n' "$repo" > "$output"; return
   fi
   stamp=$(sed -nE 's@.*<updated>([^<]+)</updated>.*@\1@p' "$feed" | head -n 1)
-  if [[ -z "$stamp" ]] || ! epoch=$(date -u -d "$stamp" +%s 2>/dev/null); then
+  # BSD date (macOS) first: its -j never touches the clock, and GNU date rejects -j.
+  if [[ -z "$stamp" ]] || ! { epoch=$(date -u -j -f '%Y-%m-%dT%H:%M:%SZ' "$stamp" +%s 2>/dev/null) || epoch=$(date -u -d "$stamp" +%s 2>/dev/null); }; then
     printf '%s\tUNKNOWN\tFLAG invalid-feed-date\n' "$repo" > "$output"; return
   fi
   age=$(( (now - epoch) / 86400 ))
