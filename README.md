@@ -32,6 +32,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [5dive](https://github.com/5dive-ai/5dive) - Open-source AI agent team on a server you own. Runs Claude Code, Codex, Pi and more. (submitted by its maintainer)
 - [Tale](https://github.com/tale-project/tale) - Shared project workspace for team tasks, sandboxed agents, and deliverable review. (submitted by its maintainer)
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator that runs Claude Code, Codex, Cursor, Gemini and Pi as subagents. (submitted by its maintainer)
+- [OpenAmer](https://github.com/openamer/openamer) - Windows-native agent runtime that operates the real desktop (filesystem, terminal, GUI, browser over CDP) locally, with persistent memory, reusable skills, and an in-process cognition core.
 
 ## Coding agents
 
