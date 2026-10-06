@@ -42,6 +42,7 @@
 - [goose](https://github.com/aaif-goose/goose) - 提供桌面、CLI 和 API 界面的 AI 智能体，可使用本地 Ollama 模型。
 - [Crush](https://github.com/charmbracelet/crush) - 支持模型和 MCP 的终端编程智能体。 (source-available)
 - [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) - 能解决 GitHub issue、也能在命令行中协助你的编程智能体。
+- [Orbi](https://github.com/orbi-build/orbi) - 可自托管的编程智能体：给 GitHub issue 打标签，得到经过评审并已合并的 PR 和带标签的发布版本。（由项目维护者提交）
 
 ## 框架
 
