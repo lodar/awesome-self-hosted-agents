@@ -42,6 +42,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [goose](https://github.com/aaif-goose/goose) - AI agent with desktop, CLI and API interfaces that works with local Ollama models.
 - [Crush](https://github.com/charmbracelet/crush) - Terminal coding agent with model and MCP support. (source-available)
 - [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) - Coding agent that solves GitHub issues or helps you in the command line.
+- [Orbi](https://github.com/orbi-build/orbi) - Self-hosted coding agent: label a GitHub issue, get a reviewed, merged PR and a tagged release. (submitted by its maintainer)
 
 ## Frameworks
 
