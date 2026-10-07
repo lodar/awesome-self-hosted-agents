@@ -87,7 +87,6 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [LightRAG](https://github.com/HKUDS/LightRAG) - RAG server with local deployment options.
 - [Cognee](https://github.com/topoteretes/cognee) - Persistent memory for agents with a self-hosted knowledge graph.
 - [Graphiti](https://github.com/getzep/graphiti) - Framework for building and querying temporal context graphs for AI agents.
-
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store with scoped MCP access. (submitted by its maintainer)
 
 ## Observability

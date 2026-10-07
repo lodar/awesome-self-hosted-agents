@@ -87,7 +87,6 @@
 - [LightRAG](https://github.com/HKUDS/LightRAG) - 支持本地部署的 RAG 服务器。
 - [Cognee](https://github.com/topoteretes/cognee) - 通过可自托管知识图谱为智能体提供持久记忆。
 - [Graphiti](https://github.com/getzep/graphiti) - 用于为 AI 智能体构建和查询时序上下文图的框架。
-
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - 开发者 alpha 阶段的加密知识存储，提供限定范围的 MCP 访问。（由项目维护者提交）
 
 ## 可观测性
