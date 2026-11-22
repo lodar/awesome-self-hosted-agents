@@ -53,7 +53,6 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 
 ## Local model servers
 
-- [Ollama](https://github.com/ollama/ollama) - Run models locally with an HTTP API.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with an OpenAI-compatible server.
 - [LocalAI](https://github.com/mudler/LocalAI) - Local model server that runs without a GPU.
 - [vLLM](https://github.com/vllm-project/vllm) - Model serving engine with an OpenAI-compatible API.
@@ -79,6 +78,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation with Playwright.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Run browser workflows with AI.
 - [Browserless](https://github.com/browserless/browserless) - Headless browser service you run in Docker and connect to with Puppeteer or Playwright. (source-available)
+- [easi.run](https://github.com/julianosig/easi.run) - Self-hosted Chrome sessions for agents with replay. (submitted by its maintainer)
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - Self-hosted browser API for agents.
 
 ## Memory and knowledge
