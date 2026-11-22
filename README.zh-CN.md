@@ -79,6 +79,7 @@
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - 使用 Playwright 自动操作浏览器的 MCP 服务器。
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - 用 AI 运行浏览器工作流。
 - [Browserless](https://github.com/browserless/browserless) - 在 Docker 中运行的无头浏览器服务，可通过 Puppeteer 或 Playwright 连接。 (source-available)
+- [easi.run](https://github.com/julianosig/easi.run) - 供智能体使用的自托管 Chrome 会话，支持回放。（由项目维护者提交）
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - 供智能体使用的可自托管浏览器 API。
 
 ## 记忆与知识
