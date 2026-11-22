@@ -79,6 +79,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation with Playwright.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Run browser workflows with AI.
 - [Browserless](https://github.com/browserless/browserless) - Headless browser service you run in Docker and connect to with Puppeteer or Playwright. (source-available)
+- [easi.run](https://github.com/julianosig/easi.run) - Self-hosted Chrome sessions for agents with replay. (submitted by its maintainer)
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - Self-hosted browser API for agents.
 
 ## Memory and knowledge
