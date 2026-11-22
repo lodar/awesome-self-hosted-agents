@@ -53,6 +53,7 @@ An entry marked (submitted by its maintainer) was added by the people who make t
 
 ## Local model servers
 
+- [Ollama](https://github.com/ollama/ollama) - Run models locally with an HTTP API.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with an OpenAI-compatible server.
 - [LocalAI](https://github.com/mudler/LocalAI) - Local model server that runs without a GPU.
 - [vLLM](https://github.com/vllm-project/vllm) - Model serving engine with an OpenAI-compatible API.
